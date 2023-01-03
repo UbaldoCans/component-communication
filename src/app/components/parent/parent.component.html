@@ -1,0 +1,11 @@
+<div class="container">
+    <h1>Parent</h1>
+    <p>message:{{message.message}}</p>
+    <div class="buttons">
+      <button (click)="addServiceMessage()">Use Service</button>
+      <button (click)="addInputMessage()">Use Input Property</button>
+      <button (click)="addObservableMessage()">User Observable</button>
+    </div>
+    <app-child (messageEmit)="onMessageEmit($event)" [messageInput]="messageInput" [type]="type" (activeEmit)="
+    onActiveEmit($event)"></app-child>
+  </div>

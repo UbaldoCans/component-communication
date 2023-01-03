@@ -1,0 +1,32 @@
+.container {
+    border: 2px solid rgb(133, 190, 219);
+    margin: 5px;
+  }
+  
+  h1 {
+    margin-left: 20px;
+    font-size: 23px;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 3px;
+    padding: 6px 10px;
+    background-color: rgb(108, 244, 126);
+    color: white;
+    border-color: blue;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(88, 158, 232);
+    border-color: rgb(88, 158, 232);
+  }
